@@ -1,0 +1,13 @@
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+MongoDB Connected: localhost
+Server running on port 5000
+[Whisper] Transcribing audio via HF API: Doctor and patient convo.mp3 (420.2KB) | Language: English (US)
+[Whisper] Audio converted to FLAC: C:\Users\INIYA\OneDrive\Desktop\final\claimpilot-backend\uploads\audio_1772322512264_converted.flac
+[Whisper] Sending 675.1KB to HF Inference API...
+[Whisper] Transcription complete: 279 chars, 53 words
+[Translate] Pipeline: Audio (ta-IN) -> Whisper -> ta text -> en text
+[Translate] Step 1: Sending 331.5KB to Whisper...
+[Translate] Step 2: Transcribed 130 chars. Now translating ta -> en...
+[Translate] Calling Helsinki-NLP/opus-mt-mul-en with 130 chars...
+[Translate] Step 3: Translation complete. 112 chars.
+[PDF] Translation only: Tamil -> English, font: NotoSans-Regular.ttf

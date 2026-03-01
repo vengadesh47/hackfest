@@ -1,0 +1,2 @@
+*.onnx filter=lfs diff=lfs merge=lfs -text
+claimpilot-backend/node_modules/@huggingface/transformers/.cache/Xenova/whisper-small/onnx/* filter=lfs diff=lfs merge=lfs -text
