@@ -1,2 +1,7 @@
 .env
 node_modules/
+claimpilot-backend/uploads/*
+!claimpilot-backend/uploads/.gitkeep
+claimpilot-backend/*.pdf
+claimpilot-backend/server.log
+claimpilot-backend/nul

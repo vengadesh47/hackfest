@@ -1,0 +1,12 @@
+{
+  "name": "claimpilot",
+  "version": "1.0.0",
+  "description": "ClaimPilot - Enterprise TPA Healthcare Claims Platform",
+  "scripts": {
+    "install:backend": "cd claimpilot-backend && npm install",
+    "install:frontend": "cd claimpilot-frontend && npm install",
+    "build:frontend": "cd claimpilot-frontend && npm run build",
+    "build": "npm run install:backend && npm run install:frontend && npm run build:frontend",
+    "start": "cd claimpilot-backend && node server.js"
+  }
+}
